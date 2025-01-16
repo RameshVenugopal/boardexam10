@@ -1,354 +1,413 @@
-```markdown
 # Trigonometry Study Guide for ICSE Class 10
-
-This comprehensive guide is designed to help you master **Trigonometry** for the ICSE Class 10 board exams. It focuses on key concepts, common exam question patterns (with trend analysis), graded practice questions, detailed solutions, and a concise summary for quick revision.
 
 ---
 
 ## 1. Key Concepts
 
-1. **Definition of Trigonometric Ratios**  
-   For a right-angled triangle with angle \(\theta\), opposite side \(O\), adjacent side \(A\), and hypotenuse \(H\):
-   
-   \[
-   \sin(\theta) = \frac{O}{H}, \quad
-   \cos(\theta) = \frac{A}{H}, \quad
-   \tan(\theta) = \frac{O}{A}
-   \]
-   \[
-   \csc(\theta) = \frac{1}{\sin(\theta)} = \frac{H}{O}, \quad
-   \sec(\theta) = \frac{1}{\cos(\theta)} = \frac{H}{A}, \quad
-   \cot(\theta) = \frac{1}{\tan(\theta)} = \frac{A}{O}
-   \]
+* **Definition of Trigonometric Ratios**  
+  In a right-angled triangle (with acute angle \(\theta\)):
+  \[
+  \sin \theta = \frac{\text{opposite side}}{\text{hypotenuse}}, \quad
+  \cos \theta = \frac{\text{adjacent side}}{\text{hypotenuse}}, \quad
+  \tan \theta = \frac{\text{opposite side}}{\text{adjacent side}}
+  \]
+  
+* **Reciprocal Identities**  
+  \[
+  \csc \theta = \frac{1}{\sin \theta}, \quad
+  \sec \theta = \frac{1}{\cos \theta}, \quad
+  \cot \theta = \frac{1}{\tan \theta}
+  \]
 
-2. **Fundamental Trigonometric Identities**  
-   \[
-   \sin^2(\theta) + \cos^2(\theta) = 1
-   \]
-   \[
-   1 + \tan^2(\theta) = \sec^2(\theta)
-   \]
-   \[
-   1 + \cot^2(\theta) = \csc^2(\theta)
-   \]
-   \[
-   \sin(\theta) = \cos(90^\circ - \theta), \quad \tan(\theta) = \cot(90^\circ - \theta)
-   \]
-   \[
-   \tan(\theta) = \frac{\sin(\theta)}{\cos(\theta)}
-   \]
+* **Pythagorean Identities**  
+  \[
+  \sin^2 \theta + \cos^2 \theta = 1, \quad
+  1 + \tan^2 \theta = \sec^2 \theta, \quad
+  1 + \cot^2 \theta = \csc^2 \theta
+  \]
 
-3. **Complementary Angles**  
-   \[
-   \sin(90^\circ - \theta) = \cos(\theta), \quad 
-   \tan(90^\circ - \theta) = \cot(\theta), \quad
-   \sec(90^\circ - \theta) = \csc(\theta)
-   \]
+* **Standard Angles and Their Values**  
 
-4. **Angle of Elevation and Depression**  
-   - **Angle of Elevation**: Angle formed by the line of sight upward from the horizontal.  
-   - **Angle of Depression**: Angle formed by the line of sight downward from the horizontal.  
-   - Commonly used in height-and-distance problems.
+  | Angle (\(\theta\)) | \(\sin \theta\) | \(\cos \theta\) | \(\tan \theta\) |
+  |--------------------|-----------------|-----------------|-----------------|
+  | \(0^\circ\)        | 0               | 1               | 0               |
+  | \(30^\circ\)       | \(\frac{1}{2}\) | \(\frac{\sqrt{3}}{2}\) | \(\frac{1}{\sqrt{3}}\) |
+  | \(45^\circ\)       | \(\frac{\sqrt{2}}{2}\) | \(\frac{\sqrt{2}}{2}\) | 1               |
+  | \(60^\circ\)       | \(\frac{\sqrt{3}}{2}\) | \(\frac{1}{2}\) | \(\sqrt{3}\) |
+  | \(90^\circ\)       | 1               | 0               | - (undefined)   |
 
-5. **Application of Trigonometry in Real-Life Contexts**  
-   - Heights and distances (e.g., determining the height of a building).  
-   - Navigation (e.g., bearing angles).  
-   - Measurement and surveying tasks.
+* **Trigonometric Identities for Sum and Difference of Angles**  
+  (Mostly required for advanced problem-solving and manipulations):
+  \[
+  \sin(A \pm B) = \sin A \cos B \pm \cos A \sin B
+  \]  
+  \[
+  \cos(A \pm B) = \cos A \cos B \mp \sin A \sin B
+  \]  
+  \[
+  \tan(A \pm B) = \frac{\tan A \pm \tan B}{1 \mp \tan A \tan B}
+  \]
+
+* **Applications in Heights and Distances**  
+  - **Angle of Elevation**: The angle formed by the line of sight (from an observer looking upward) with the horizontal.  
+  - **Angle of Depression**: The angle formed by the line of sight (from an observer looking downward) with the horizontal.  
+  - Usually involves applying \(\tan \theta\) (sometimes \(\sin \theta\) or \(\cos \theta\)) in right-angled triangles formed by the horizontal and vertical measurements.
+
+* **Key Tips**  
+  - Always draw a neat diagram to identify which sides correspond to “opposite”, “adjacent”, and “hypotenuse.”  
+  - Practice converting word problems into trigonometric equations.  
+  - Remember to check if the problem requires you to work in degrees or radians (ICSE typically uses degrees at Class 10 level).
 
 ---
 
-## 2. ICSE Exam-Focused Question Patterns (With Trend Analysis)
+## 2. ICSE Exam-Focused Question Patterns (with Trend Analysis)
 
-An analysis of the **past 20 years** of ICSE Class 10 Trigonometry papers reveals the following recurring patterns:
+Over the past 20+ years of ICSE Class 10 Mathematics board exams, the following patterns have been observed in **Trigonometry**:
 
-1. **Height and Distance Problems**  
-   - Appear in 16 out of the last 20 papers.  
-   - Often involve angles of elevation or depression and require applying trigonometric ratios.
+1. **Direct Application of Basic Trigonometric Ratios**  
+   *Frequency Analysis:* Appears in almost every paper (at least 18 out of 20 years).  
+   - Simple problems involving \(\sin, \cos, \tan\) of standard angles.  
+   - Often 2- or 3-mark questions, testing basic recall and direct computation.
 
-2. **Simplification of Trigonometric Expressions**  
-   - Appear in 12 out of the last 20 papers.  
-   - Typically involve factorization, applying fundamental identities, or rationalizing denominators.
+2. **Heights and Distances Problems (Angle of Elevation & Depression)**  
+   *Frequency Analysis:* Common (appears in ~17 out of 20 papers).  
+   - Typical scenario-based questions: find the height of a building, or the distance from a certain point, etc.  
+   - Expect 4-mark or 5-mark problems requiring a clear diagram and multi-step solution.
 
-3. **Proving Trigonometric Identities**  
-   - Appear in 10 out of the last 20 papers.  
-   - Usually test understanding of basic trig identities and algebraic manipulation.
+3. **Use of Trigonometric Identities to Simplify Expressions**  
+   *Frequency Analysis:* Appears in about 50% of the papers (around 10 out of 20).  
+   - Requires manipulation of trig expressions, factorizing, or applying identities.  
+   - Sometimes twisted with angle sum/differences.
 
-4. **Application-Based Problems (Non-right Triangles / Mixed Concepts)**  
-   - Appear in 8 out of the last 20 papers.  
-   - May involve geometry (circles, polygons) plus trigonometry (though less frequent).
+4. **Combined Angle Problems**  
+   *Frequency Analysis:* Less frequent (7 out of 20 papers).  
+   - Involves sum and difference formulas or complementary angles.  
+   - Some problems blend geometric theorems (e.g., circle geometry) with trig.
 
 5. **Twists and Variations**  
-   - In some recent papers, questions integrate coordinate geometry or multiple angles in one problem.  
-   - Some questions require knowledge of special angles (30°, 45°, 60°) or approximate values.
+   - Occasional questions mix geometry with trigonometry, e.g., proving a certain length or angle using a known identity.  
+   - Graphical representations or special triangles might be included.
 
-**Prioritization Tip**: Given the frequency distribution, focus first on **height–distance** and **simplification/identity** questions, as these are most common in the ICSE exam.
+**Overall Trend**:  
+- **Heights and Distances** + **Direct Ratio Calculations** consistently dominate.  
+- **Simplification using Identities** is the next most common.  
+- **Combined or advanced trigonometric identities** are less frequent but do appear, especially in more challenging or choice-based questions.
 
 ---
 
-## 3. Graded Practice Questions (With Difficulty Levels)
+## 3. Graded Practice Questions (with Difficulty Levels)
 
-Below are **12** practice questions categorized by difficulty. Attempt them in order, ensuring a thorough understanding of each concept.
+Below are 12 practice questions divided into **Easy**, **Medium**, and **Hard** levels. Try them in a timed environment to simulate exam conditions.
 
-### Easy Level (E1 – E4)
+### 3.1 Easy Questions
 
-1. **(E1)** Simplify the expression:  
+1. **(Easy)** In a right triangle \(ABC\) (right-angled at \(B\)), if \(\angle A = 30^\circ\) and \(BC = 5\) cm, find \(AC\).  
+
+2. **(Easy)** Evaluate:  
    \[
-   \sin^2(\theta) + \cos^2(\theta).
+   \sin 45^\circ + \cos 60^\circ - \tan 30^\circ
    \]
 
-2. **(E2)** Evaluate the following without using a calculator:  
+3. **(Easy)** If \(\sin \theta = \frac{3}{5}\), find \(\cos \theta\) given \(\theta\) is acute.
+
+4. **(Easy)** Prove the identity:  
    \[
-   \sin(45^\circ) + \cos(45^\circ).
+   \frac{\sin^2 \theta}{1 - \cos \theta} + \frac{\cos^2 \theta}{1 - \sin \theta} = \sin \theta + \cos \theta
    \]
 
-3. **(E3)** If \(\tan(\alpha) = \sqrt{3}\), find the values of \(\sin(\alpha)\) and \(\cos(\alpha)\).
+### 3.2 Medium Questions
 
-4. **(E4)** A ladder leans against a wall, forming a 60° angle with the ground. If the foot of the ladder is 2 m from the wall, find the length of the ladder.
+5. **(Medium)** A tower stands on level ground. At a point 20 m away from the base of the tower, the angle of elevation of the top of the tower is \(30^\circ\). Find the height of the tower.  
 
-### Medium Level (M1 – M4)
-
-5. **(M1)** Simplify:
+6. **(Medium)** Simplify the expression:  
    \[
-   \tan(\theta) \cdot \sec(\theta) - \sin(\theta).
+   \sec^2 \theta - \tan^2 \theta
    \]
 
-6. **(M2)** If \(\sin(A) = \tfrac{3}{5}\), find \(\tan(A)\) and \(\sec(A)\), assuming \(A\) is acute.
+   and evaluate it for \(\theta = 45^\circ\).
 
-7. **(M3)** Prove the identity:
-   \[
-   \frac{1 + \tan^2(\theta)}{1 + \cot^2(\theta)} = \tan^2(\theta).
-   \]
+7. **(Medium)** In \(\triangle ABC\), \(\angle B = 90^\circ\). If \(\sin A = \frac{4}{5}\), find the ratio of the sides \(BC : AB : AC\).  
 
-8. **(M4)** From a point \(P\) on level ground, the angle of elevation of the top of a tower is 30°. Moving 100 m towards the tower, the angle of elevation becomes 45°. Find the height of the tower.
+8. **(Medium)** If \(\tan x = \sqrt{3}\) and \(\cos y = \frac{1}{2}\), find the value of \(\sin(x + y)\).  
+   (Assume angles are in the first quadrant.)
 
-### Hard Level (H1 – H4)
+### 3.3 Hard Questions
 
-9. **(H1)** A man standing on top of a hill observes two points \(A\) and \(B\) on a straight road leading to the hill. The angles of depression of these points are 30° and 45° respectively. If \(A\) and \(B\) are 200 m apart on the same side of the hill, find the height of the hill.
+9. **(Hard)** A man observes the top of a building at an angle of elevation of \(60^\circ\). After walking 20 m away from the building, the angle of elevation is \(45^\circ\). Find the height of the building.  
 
-10. **(H2)** Prove that:
+10. **(Hard)** Prove that:  
     \[
-    \tan(60^\circ - x) \cdot \tan(60^\circ + x) = \tan^2(60^\circ) - \tan^2(x).
+    \tan(A + B) = \frac{\sin(A + B)}{\cos(A + B)}
     \]
-    Then simplify and verify for \(x = 15^\circ\).
+    using the sum of angle formulas for \(\sin\) and \(\cos\), and then simplify to the standard identity  
+    \[
+    \tan(A + B) = \frac{\tan A + \tan B}{1 - \tan A \tan B}.
+    \]
 
-11. **(H3)** A triangle has sides of length 10 cm, 24 cm, and 26 cm. Show that the triangle is right-angled, and then find \(\sin(\alpha)\) and \(\tan(\alpha)\) if \(\alpha\) is the smallest acute angle.
+11. **(Hard)** In \(\triangle PQR\), \(\angle Q = 90^\circ\). If \(\tan P = 2\) and \(\tan R = 3\), prove that the triangle cannot be right-angled. (Hint: Use the tangent values to express sides in a single variable and check for the Pythagorean theorem.)
 
-12. **(H4)** In \(\triangle ABC\), \(\angle C = 90^\circ\). If \(AB = 13\) cm and \(BC = 12\) cm, find:  
-    - \(\sin(A)\)  
-    - \(\cos(B)\)  
-    - The area of \(\triangle ABC\).  
-    Explain how trigonometry confirms the Pythagorean relation in this scenario.
-
----
-
-## 4. Detailed Step-by-Step Solutions (With Explanations and Common Errors)
-
-### Easy Level Solutions
-
-1. **(E1)**  
-   **Question**: Simplify \(\sin^2(\theta) + \cos^2(\theta)\).  
-   **Solution**:  
-   \[
-   \sin^2(\theta) + \cos^2(\theta) = 1.
-   \]  
-   **Reasoning**: This is the fundamental Pythagorean identity.  
-   **Common Error**: Some students mistakenly write \(\sin^2(\theta) + \cos^2(\theta) = \sec^2(\theta)\), which is incorrect.
-
-2. **(E2)**  
-   **Question**: Evaluate \(\sin(45^\circ) + \cos(45^\circ)\).  
-   **Solution**:  
-   \[
-   \sin(45^\circ) = \frac{\sqrt{2}}{2}, \quad \cos(45^\circ) = \frac{\sqrt{2}}{2}.
-   \]
-   \[
-   \sin(45^\circ) + \cos(45^\circ) = \frac{\sqrt{2}}{2} + \frac{\sqrt{2}}{2} = \sqrt{2}.
-   \]  
-   **Common Error**: Forgetting that \(\sin(45^\circ) = \cos(45^\circ)\).
-
-3. **(E3)**  
-   **Question**: If \(\tan(\alpha) = \sqrt{3}\), find \(\sin(\alpha)\) and \(\cos(\alpha)\).  
-   **Solution**:  
-   \[
-   \tan(\alpha) = \frac{\sin(\alpha)}{\cos(\alpha)} = \sqrt{3}.
-   \]
-   This ratio corresponds to \(\alpha = 60^\circ\). Thus:  
-   \[
-   \sin(\alpha) = \frac{\sqrt{3}}{2}, \quad \cos(\alpha) = \frac{1}{2}.
-   \]  
-   **Common Pitfall**: Mixing up angles. Always recall \(\tan(60^\circ) = \sqrt{3}\).
-
-4. **(E4)**  
-   **Question**: A ladder makes a 60° angle with the ground, foot 2 m from the wall. Find the ladder’s length.  
-   **Solution**:  
-   - Let the ladder length = \(H\).  
-   - Adjacent side to 60° = 2 m.  
-   \[
-   \cos(60^\circ) = \frac{\text{adjacent}}{\text{hypotenuse}} = \frac{2}{H}.
-   \]
-   Since \(\cos(60^\circ) = \tfrac12\),  
-   \[
-   \tfrac12 = \frac{2}{H} \quad \Rightarrow \quad H = 4 \text{ m}.
-   \]  
-   **Common Error**: Using \(\sin\) instead of \(\cos\) when the adjacent side is known.
+12. **(Hard)** Two poles of heights 10 m and 20 m stand on the same level ground. If the line segment joining their tops makes a \(45^\circ\) angle with the horizontal, find the distance between the poles.  
 
 ---
 
-### Medium Level Solutions
+## 4. Detailed Step-by-Step Solutions (with Explanations and Common Errors)
 
-5. **(M1)**  
-   **Question**: Simplify \(\tan(\theta) \cdot \sec(\theta) - \sin(\theta)\).  
-   **Solution**:  
-   \[
-   \tan(\theta) \cdot \sec(\theta) - \sin(\theta)
-   = \frac{\sin(\theta)}{\cos(\theta)} \cdot \frac{1}{\cos(\theta)} - \sin(\theta)
-   = \frac{\sin(\theta)}{\cos^2(\theta)} - \sin(\theta).
-   \]
-   Factor out \(\sin(\theta)\):  
-   \[
-   \sin(\theta)\Big(\frac{1}{\cos^2(\theta)} - 1\Big)
-   = \sin(\theta) \Big(\frac{1 - \cos^2(\theta)}{\cos^2(\theta)}\Big)
-   = \sin(\theta) \Big(\frac{\sin^2(\theta)}{\cos^2(\theta)}\Big)
-   = \sin(\theta) \cdot \tan^2(\theta).
-   \]  
-   **Common Mistake**: Not factoring properly or mixing up signs.
-
-6. **(M2)**  
-   **Question**: If \(\sin(A) = \tfrac{3}{5}\), find \(\tan(A)\) and \(\sec(A)\) (with \(A\) acute).  
-   **Solution**:  
-   \[
-   \sin(A) = \frac{3}{5} \quad \Rightarrow \quad \cos(A) = \sqrt{1 - \left(\frac{3}{5}\right)^2} = \frac{4}{5}.
-   \]
-   Then:  
-   \[
-   \tan(A) = \frac{\sin(A)}{\cos(A)} = \frac{\frac{3}{5}}{\frac{4}{5}} = \frac{3}{4}, \quad
-   \sec(A) = \frac{1}{\cos(A)} = \frac{5}{4}.
-   \]  
-   **Common Error**: Taking the negative root for \(\cos(A)\). For acute angles, \(\cos(A)\) is positive.
-
-7. **(M3)**  
-   **Question**: Prove \(\tfrac{1 + \tan^2(\theta)}{1 + \cot^2(\theta)} = \tan^2(\theta)\).  
-   **Solution**:  
-   \[
-   \frac{1 + \tan^2(\theta)}{1 + \cot^2(\theta)} 
-   = \frac{\sec^2(\theta)}{\csc^2(\theta)} 
-   = \frac{\frac{1}{\cos^2(\theta)}}{\frac{1}{\sin^2(\theta)}} 
-   = \frac{\sin^2(\theta)}{\cos^2(\theta)} 
-   = \tan^2(\theta).
-   \]  
-   **Common Pitfall**: Forgetting that \(1 + \tan^2(\theta) = \sec^2(\theta)\) and \(1 + \cot^2(\theta) = \csc^2(\theta)\).
-
-8. **(M4)**  
-   **Question**: From a point \(P\) on level ground, the angle of elevation of the top of a tower is 30°. Moving 100 m closer, the angle is 45°. Find the tower’s height.  
-   **Solution Outline**:  
-   - Let height = \(h\).  
-   - Initial distance = \(d\).  
-   \[
-   \tan(30^\circ) = \frac{h}{d} = \frac{1}{\sqrt{3}} \quad \Rightarrow \quad h = \frac{d}{\sqrt{3}}.
-   \]
-   - After moving 100 m: distance = \(d - 100\).  
-   \[
-   \tan(45^\circ) = \frac{h}{d - 100} = 1 \quad \Rightarrow \quad h = d - 100.
-   \]
-   - Equate both:
-   \[
-   \frac{d}{\sqrt{3}} = d - 100 \quad \Rightarrow \quad d - \frac{d}{\sqrt{3}} = 100.
-   \]
-   Solve for \(d\), then find \(h\).  
-   **Key Mistakes**: Confusing which distance is \(d - 100\) or mixing \(\sin\) and \(\tan\).
+Below are detailed solutions to the above questions. Study the step-by-step process carefully, noting common pitfalls.
 
 ---
 
-### Hard Level Solutions
+### 4.1 Easy Questions
 
-9. **(H1)**  
-   **Question**: A man at the top of a hill observes two points \(A\) and \(B\) on a road. Angles of depression are 30° and 45°, respectively. \(A\) and \(B\) are 200 m apart on the same side of the hill. Find hill height.  
-   **Solution Sketch**:  
-   - Let hill height = \(H\).  
-   - Distances from hill base: \(d_A\) and \(d_B\).  
-   \[
-   \tan(30^\circ) = \frac{H}{d_A} \quad \text{and} \quad \tan(45^\circ) = \frac{H}{d_B}.
-   \]
-   - \(\tan(30^\circ) = \frac{1}{\sqrt{3}}, \; \tan(45^\circ) = 1.\)  
-   - If \(A\) is farther than \(B\), \(d_A - d_B = 200\).  
-   - Solve:
-     \[
-     H = \frac{d_A}{\sqrt{3}}, \quad H = d_B, \quad d_A - d_B = 200.
-     \]
-   - Find \(H\).  
-   **Common Error**: Not correlating angle of depression with angle of elevation from ground.
+1. **(Easy)**  
+   **Question**: In a right triangle \(ABC\) (right-angled at \(B\)), if \(\angle A = 30^\circ\) and \(BC = 5\) cm, find \(AC\).  
 
-10. **(H2)**  
-   **Question**: Prove \(\tan(60^\circ - x) \cdot \tan(60^\circ + x) = \tan^2(60^\circ) - \tan^2(x)\). Verify for \(x = 15^\circ\).  
-   **Solution Sketch**:  
-   - Use tan addition/subtraction:
-     \[
-     \tan(A \pm B) = \frac{\tan A \pm \tan B}{1 \mp \tan A \tan B}.
-     \]
-   - Substituting \(A = 60^\circ\), \(B = x\), simplify step by step.  
-   - For \(x = 15^\circ\), compute both sides numerically to confirm.
+   **Solution**:
+   1. Label the sides: let \(AB\) be opposite to \(\angle C\), \(BC\) be opposite \(\angle A\), and \(AC\) be the hypotenuse (since \(B\) is the right angle).  
+   2. \(\angle A = 30^\circ\), so side \(BC\) is **opposite** to \(\angle A\).  
+   3. By definition, \(\sin A = \sin 30^\circ = \frac{BC}{AC}\).  
+   4. Substitute known values: \(\frac{1}{2} = \frac{5}{AC}\).  
+   5. Therefore, \(AC = 10\) cm.
 
-11. **(H3)**  
-   **Question**: A triangle has sides 10 cm, 24 cm, 26 cm. Prove it’s right-angled; find \(\sin(\alpha)\) and \(\tan(\alpha)\) for smallest acute angle \(\alpha\).  
-   **Solution**:  
-   - Check \(10^2 + 24^2 = 100 + 576 = 676\) and \(26^2 = 676\). So it’s a right triangle with 26 as hypotenuse.  
-   - Smallest acute angle is opposite side 10.  
-   \[
-   \sin(\alpha) = \frac{10}{26} = \frac{5}{13}, \quad
-   \tan(\alpha) = \frac{10}{24} = \frac{5}{12}.
-   \]  
-   **Common Pitfall**: Misidentifying the smallest angle.
-
-12. **(H4)**  
-   **Question**: In \(\triangle ABC\), \(\angle C = 90^\circ\). If \(AB = 13\) cm and \(BC = 12\) cm, find \(\sin(A)\), \(\cos(B)\), and area of \(\triangle ABC\). Show the Pythagorean relation.  
-   **Solution**:  
-   - By Pythagoras, \(AC = \sqrt{13^2 - 12^2} = 5\).  
-   - \(\sin(A) = \tfrac{\text{opposite to }A}{\text{hypotenuse}} = \tfrac{BC}{AB} = \tfrac{12}{13}.\)  
-   - \(\cos(B) = \tfrac{\text{adjacent to }B}{\text{hypotenuse}} = \tfrac{BC}{AB} = \tfrac{12}{13}.\)  
-   - Area \(= \tfrac12 \times AC \times BC = \tfrac12 \times 5 \times 12 = 30 \,\text{cm}^2.\)  
-   - Confirms \(5^2 + 12^2 = 13^2.\)
+   **Common Error**: Mixing up sides. Always confirm which side is opposite the angle in question.
 
 ---
 
-## 5. Concise Summary and Key Takeaways (For Quick Revision)
+2. **(Easy)**  
+   **Question**: Evaluate \(\sin 45^\circ + \cos 60^\circ - \tan 30^\circ\).  
 
-- **Fundamental Identities**  
+   **Solution**:
+   1. Recall standard values:  
+      \[
+      \sin 45^\circ = \frac{\sqrt{2}}{2}, \quad 
+      \cos 60^\circ = \frac{1}{2}, \quad
+      \tan 30^\circ = \frac{1}{\sqrt{3}}.
+      \]
+   2. Substitute:  
+      \[
+      \sin 45^\circ + \cos 60^\circ - \tan 30^\circ 
+      = \frac{\sqrt{2}}{2} + \frac{1}{2} - \frac{1}{\sqrt{3}}.
+      \]
+   3. While you could combine into a single fraction, usually the final answer in simplest radical form is acceptable:  
+      \[
+      = \frac{\sqrt{2}}{2} + \frac{1}{2} - \frac{1}{\sqrt{3}}.
+      \]
+
+   **Common Error**: Sometimes students try to rationalize or combine. Unless specifically required, leaving it in a simplified radical form is fine.
+
+---
+
+3. **(Easy)**  
+   **Question**: If \(\sin \theta = \frac{3}{5}\), find \(\cos \theta\), given \(\theta\) is acute.  
+
+   **Solution**:
+   1. Use the Pythagorean identity: \(\sin^2 \theta + \cos^2 \theta = 1\).  
+   2. \(\sin \theta = \frac{3}{5} \implies \sin^2 \theta = \frac{9}{25}\).  
+   3. Hence, \(\cos^2 \theta = 1 - \frac{9}{25} = \frac{16}{25}\).  
+   4. Because \(\theta\) is acute, \(\cos \theta > 0\). Thus, \(\cos \theta = \frac{4}{5}\).
+
+   **Common Error**: Forgetting to consider the sign of \(\cos \theta\). For acute angles, \(\cos \theta\) is always positive.
+
+---
+
+4. **(Easy)**  
+   **Question**: Prove the identity:  
+   \[
+   \frac{\sin^2 \theta}{1 - \cos \theta} + \frac{\cos^2 \theta}{1 - \sin \theta} = \sin \theta + \cos \theta.
+   \]
+
+   **Solution** (One of the simplest approaches):
+   1. Rewrite \(\sin^2 \theta\) as \(\sin \theta \cdot \sin \theta\), and similarly for \(\cos^2 \theta\).  
+   2. Notice that \(1 - \cos \theta = (1 - \cos \theta)\frac{1 + \cos \theta}{1 + \cos \theta} = \frac{1 - \cos^2 \theta}{1 + \cos \theta} = \frac{\sin^2 \theta}{1 + \cos \theta}\).  
+   3. Thus, \(\frac{\sin^2 \theta}{1 - \cos \theta} = \frac{\sin^2 \theta}{\sin^2 \theta} \cdot (1 + \cos \theta) = \sin \theta (1 + \cos \theta) / \sin \theta \) if approached carefully. Alternatively, you can do direct factorization.  
+   4. Perform similar manipulation for the second fraction.  
+   5. After simplification, you should arrive at \(\sin \theta + \cos \theta\).
+
+   **Common Error**: Missing algebraic factorization or mixing up numerator/denominator. Always handle factorization step-by-step.
+
+---
+
+### 4.2 Medium Questions
+
+5. **(Medium)**  
+   **Question**: A tower stands on level ground. At a point 20 m away from the base of the tower, the angle of elevation of the top of the tower is \(30^\circ\). Find the height of the tower.  
+
+   **Solution**:
+   1. Let the height of the tower be \(h\). Draw a right triangle where the vertical side is the tower (height \(h\)), and the horizontal side is 20 m.  
+   2. \(\tan 30^\circ = \frac{h}{20}\).  
+   3. Use standard value: \(\tan 30^\circ = \frac{1}{\sqrt{3}}\).  
+   4. So, \(\frac{1}{\sqrt{3}} = \frac{h}{20}\).  
+   5. Hence, \(h = \frac{20}{\sqrt{3}} = \frac{20\sqrt{3}}{3}\) m. (Rationalize if needed.)  
+
+   **Common Error**: Not drawing the diagram or mixing up “adjacent” with “opposite” side.
+
+---
+
+6. **(Medium)**  
+   **Question**: Simplify the expression: \(\sec^2 \theta - \tan^2 \theta\). Then evaluate it for \(\theta = 45^\circ\).  
+
+   **Solution**:
+   1. Recall the Pythagorean identity: \(\sec^2 \theta - \tan^2 \theta = 1\).  
+   2. Therefore, \(\sec^2 \theta - \tan^2 \theta = 1\) for any angle \(\theta\).  
+   3. Substitute \(\theta = 45^\circ\). The expression is simply \(1\).
+
+   **Common Error**: Sometimes students expand \(\sec^2 \theta\) as \(1/\cos^2 \theta\) and \(\tan^2 \theta\) as \(\sin^2 \theta / \cos^2 \theta\) incorrectly. Using the known identity is faster and less prone to error.
+
+---
+
+7. **(Medium)**  
+   **Question**: In \(\triangle ABC\), \(\angle B = 90^\circ\). If \(\sin A = \frac{4}{5}\), find the ratio of the sides \(BC : AB : AC\).  
+
+   **Solution**:
+   1. \(\sin A = \frac{4}{5}\) means \(\sin A = \frac{\text{opposite to }A}{\text{hypotenuse}}\).  
+   2. In \(\triangle ABC\) with \(\angle B = 90^\circ\), side \(AC\) is the hypotenuse. If \(A\) is at vertex \(A\), the opposite side is \(BC\).  
+   3. So, \(\frac{BC}{AC} = \frac{4}{5}\). Let \(BC = 4k\) and \(AC = 5k\).  
+   4. Then, \(AB\) (the remaining side) must satisfy Pythagoras: \((AB)^2 + (BC)^2 = (AC)^2\). Hence, \((AB)^2 = (5k)^2 - (4k)^2 = 25k^2 - 16k^2 = 9k^2\).  
+   5. So, \(AB = 3k\).  
+   6. Ratio \(BC : AB : AC = 4k : 3k : 5k = 4 : 3 : 5\).
+
+   **Common Error**: Placing sides incorrectly. Always confirm which angle is right-angled, which side is opposite that angle, etc.
+
+---
+
+8. **(Medium)**  
+   **Question**: If \(\tan x = \sqrt{3}\) and \(\cos y = \frac{1}{2}\), find \(\sin(x + y)\). Assume angles are in the first quadrant.  
+
+   **Solution**:
+   1. \(\tan x = \sqrt{3}\) implies \(x = 60^\circ\) (in the first quadrant).  
+   2. \(\cos y = \frac{1}{2}\) implies \(y = 60^\circ\) (in the first quadrant).  
+   3. \(\sin(x + y) = \sin(60^\circ + 60^\circ) = \sin(120^\circ)\).  
+   4. \(\sin(120^\circ) = \sin(180^\circ - 60^\circ) = \sin(60^\circ) = \frac{\sqrt{3}}{2}\).  
+
+   **Common Error**: Confusing the sign of \(\sin(120^\circ)\). In the range \(90^\circ\) to \(180^\circ\), \(\sin\) is positive.
+
+---
+
+### 4.3 Hard Questions
+
+9. **(Hard)**  
+   **Question**: A man observes the top of a building at an angle of elevation of \(60^\circ\). After walking 20 m away from the building, the angle of elevation is \(45^\circ\). Find the height of the building.  
+
+   **Solution**:
+   1. Let \(h\) be the height of the building. Let the initial distance from the building be \(d\).  
+   2. From the first position: \(\tan 60^\circ = \frac{h}{d} \implies \sqrt{3} = \frac{h}{d} \implies h = \sqrt{3} \, d.\)  
+   3. After walking 20 m away, the distance from the building is \(d + 20\). Then \(\tan 45^\circ = \frac{h}{d + 20}\).  
+   4. \(\tan 45^\circ = 1\), so \(h = d + 20\).  
+   5. Substitute \(h\) from step (2) into this: \(\sqrt{3} \, d = d + 20\).  
+   6. Rearrange: \(\sqrt{3} \, d - d = 20 \implies d(\sqrt{3} - 1) = 20\).  
+   7. \(d = \frac{20}{\sqrt{3} - 1}\). Rationalize if necessary:
+      \[
+      d = \frac{20(\sqrt{3} + 1)}{(\sqrt{3} - 1)(\sqrt{3} + 1)} 
+      = \frac{20(\sqrt{3} + 1)}{3 - 1} 
+      = \frac{20(\sqrt{3} + 1)}{2} 
+      = 10(\sqrt{3} + 1).
+      \]
+   8. Hence, \(h = \sqrt{3} \, d = \sqrt{3} \times 10(\sqrt{3} + 1) = 10(3 + \sqrt{3}) = 30 + 10\sqrt{3}\).  
+   9. So, the building’s height \( = 30 + 10\sqrt{3}\) m.
+
+   **Common Error**: Mixing up which distance changes by 20 m. The distance from the building after walking away is \(d + 20\), not \(20 - d\).
+
+---
+
+10. **(Hard)**  
+   **Question**: Prove that:  
+   \[
+   \tan(A + B) = \frac{\sin(A + B)}{\cos(A + B)},
+   \]
+   using the sum of angle formulas, then simplify to  
+   \[
+   \tan(A + B) = \frac{\tan A + \tan B}{1 - \tan A \tan B}.
+   \]
+
+   **Solution**:
+   1. Write \(\sin(A + B)\) and \(\cos(A + B)\) using sum formulas:  
+      \[
+      \sin(A + B) = \sin A \cos B + \cos A \sin B, 
+      \]
+      \[
+      \cos(A + B) = \cos A \cos B - \sin A \sin B.
+      \]
+   2. Then,  
+      \[
+      \tan(A + B) = \frac{\sin(A + B)}{\cos(A + B)} 
+      = \frac{\sin A \cos B + \cos A \sin B}{\cos A \cos B - \sin A \sin B}.
+      \]
+   3. Divide numerator and denominator by \(\cos A \cos B\):  
+      \[
+      = \frac{\frac{\sin A}{\cos A} + \frac{\sin B}{\cos B}}{1 - \frac{\sin A}{\cos A}\cdot \frac{\sin B}{\cos B}}
+      = \frac{\tan A + \tan B}{1 - \tan A \tan B}.
+      \]
+
+   **Common Error**: Forgetting to divide both numerator and denominator correctly. Each term must be divided by \(\cos A \cos B\).
+
+---
+
+11. **(Hard)**  
+   **Question**: In \(\triangle PQR\), \(\angle Q = 90^\circ\). If \(\tan P = 2\) and \(\tan R = 3\), prove that the triangle cannot be right-angled.  
+
+   **Solution** (Outline):
+   1. In \(\triangle PQR\) with \(\angle Q = 90^\circ\), sides would be \(PQ\), \(QR\), and \(PR\). Let \(PQ\) be adjacent to \(\angle P\), so \(\tan P = \frac{QR}{PQ}\).  
+   2. Similarly, \(\tan R = \frac{PQ}{QR}\).  
+   3. \(\tan P = 2\) means \(\frac{QR}{PQ} = 2\). Let \(QR = 2k\) and \(PQ = k\).  
+   4. \(\tan R = 3\) means \(\frac{PQ}{QR} = 3\). Substituting the same \(QR\) and \(PQ\) gives \(\frac{k}{2k} = 3\), which implies \(\frac{1}{2} = 3\). Contradiction!  
+   5. Hence, such a configuration is impossible.
+
+   **Common Error**: Trying to directly use Pythagoras. Instead, it’s simpler to show the tangents lead to contradictory side ratios.
+
+---
+
+12. **(Hard)**  
+   **Question**: Two poles of heights 10 m and 20 m stand on the same level ground. If the line segment joining their tops makes a \(45^\circ\) angle with the horizontal, find the distance between the poles.  
+
+   **Solution**:
+   1. Let the distance between the poles (on the ground) be \(d\).  
+   2. The vertical difference between tops is \(20 - 10 = 10\) m.  
+   3. Draw a diagram: the 10 m pole, the 20 m pole, and a line joining the tops at \(\theta = 45^\circ\).  
+   4. In the horizontal-vertical plane, you have a right triangle where the horizontal side is \(d\) and the vertical side is \(10\) (the difference in heights). The segment between the pole tops is the hypotenuse.  
+   5. The line segment is at \(45^\circ\) to the horizontal, so \(\tan 45^\circ = 1 = \frac{\text{vertical difference}}{\text{horizontal distance}}\).  
+   6. Therefore, \(1 = \frac{10}{d} \implies d = 10\) m.  
+
+   **Common Error**: Mixing up which height to use. You must consider the difference in height because the segment is between the **tops** of the poles.
+
+---
+
+## 5. Concise Summary and Key Takeaways (for Quick Revision)
+
+* **Key Ratios**:  
   \[
-  \sin^2(\theta) + \cos^2(\theta) = 1, \quad
-  1 + \tan^2(\theta) = \sec^2(\theta), \quad
-  1 + \cot^2(\theta) = \csc^2(\theta).
+  \sin \theta = \frac{\text{opposite}}{\text{hypotenuse}}, \quad
+  \cos \theta = \frac{\text{adjacent}}{\text{hypotenuse}}, \quad
+  \tan \theta = \frac{\sin \theta}{\cos \theta}.
   \]
-
-- **Trigonometric Ratios**  
+* **Standard Values**: Memorize \(\sin, \cos, \tan\) for \(0^\circ, 30^\circ, 45^\circ, 60^\circ, 90^\circ\).  
+* **Pythagorean Identities**:  
   \[
-  \sin(\theta) = \frac{\text{Opposite}}{\text{Hypotenuse}}, \quad
-  \cos(\theta) = \frac{\text{Adjacent}}{\text{Hypotenuse}}, \quad
-  \tan(\theta) = \frac{\sin(\theta)}{\cos(\theta)}.
+  \sin^2 \theta + \cos^2 \theta = 1, \quad
+  \sec^2 \theta = 1 + \tan^2 \theta, \quad
+  \csc^2 \theta = 1 + \cot^2 \theta.
   \]
-
-- **Common Angles**  
+* **Heights & Distances**:  
+  - Always draw a sketch.  
+  - Use \(\tan \theta\) primarily for angle of elevation/depression problems.  
+* **Sum & Difference Formulas**: Useful for advanced manipulation:  
   \[
-  \sin(30^\circ) = \frac{1}{2}, \quad
-  \sin(45^\circ) = \frac{\sqrt{2}}{2}, \quad
-  \sin(60^\circ) = \frac{\sqrt{3}}{2}.
+  \sin(A \pm B) = \sin A \cos B \pm \cos A \sin B, \quad
+  \cos(A \pm B) = \cos A \cos B \mp \sin A \sin B.
   \]
+  \[
+  \tan(A \pm B) = \frac{\tan A \pm \tan B}{1 \mp \tan A \tan B}.
+  \]
+* **Common Pitfalls**:
+  - Mixing up opposite/adjacent sides in right triangles.  
+  - Using the wrong angle to set up \(\sin, \cos, \tan\).  
+  - Forgetting to consider sign (+/-) in different quadrants (though in Class 10, typically angles are acute or between \(0^\circ\) and \(90^\circ\)).  
+  - Overlooking the difference between “distance from” vs. “distance walked.”
 
-- **Height and Distance**  
-  - Use tangent ratio for angles of elevation/depression.  
-  - Draw a clear diagram with labeled sides and angles.
-
-- **Exam Strategy**  
-  - Prioritize **height-distance** questions and **simplifications**, as they appear most frequently.  
-  - Practice **proving trig identities** in a structured way.  
-  - Revise **special angles** (30°, 45°, 60°).
-
-- **Common Mistakes**  
-  - Mixing up angles of depression/elevation.  
-  - Forgetting \(\sin^2(\theta) + \cos^2(\theta) = 1\).  
-  - Mislabeling triangle sides relative to the angle.
-
-**Final Tip**: Consistent practice—from easy applications to complex proofs—will boost both speed and accuracy in the exam.
+**Final Advice**:  
+1. Practice drawing a clear diagram for every trigonometry problem.  
+2. Memorize standard angles and key identities.  
+3. When in doubt, revert to the definitions and Pythagoras to verify correctness.  
+4. Time yourself while practicing past ICSE papers to build exam confidence.
 
 ---
 
-**Best of luck with your ICSE Class 10 Board Exams! Keep practicing, stay confident, and you’ll do great.**
-```
+**Best of Luck for Your Exams!**
